@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this, "Reset...", Toast.LENGTH_SHORT).show();
     }
 
+
     public void score3TeamA(View v) {
         updateScore(true, 3);
     }

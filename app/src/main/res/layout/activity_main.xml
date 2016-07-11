@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -38,26 +43,17 @@
                 android:textSize="@dimen/score_size" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/view_margin"
-                android:background="@color/orange"
+                style="CustomButton"
                 android:onClick="score3TeamA"
                 android:text="@string/points_3" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/view_margin"
-                android:background="@color/orange"
+                style="CustomButton"
                 android:onClick="score2TeamA"
                 android:text="@string/points_2" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/view_margin"
-                android:background="@color/orange"
+                style="CustomButton"
                 android:onClick="score1TeamA"
                 android:text="@string/points_1" />
         </LinearLayout>
@@ -87,26 +83,17 @@
                 android:textSize="@dimen/score_size" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/view_margin"
-                android:background="@color/orange"
+                style="CustomButton"
                 android:onClick="score3TeamB"
                 android:text="@string/points_3" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/view_margin"
-                android:background="@color/orange"
+                style="CustomButton"
                 android:onClick="score2TeamB"
                 android:text="@string/points_2" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/view_margin"
-                android:background="@color/orange"
+                style="CustomButton"
                 android:onClick="score1TeamB"
                 android:text="@string/points_1" />
         </LinearLayout>
@@ -130,3 +117,4 @@
 
 
 </LinearLayout>
+</ScrollView>
